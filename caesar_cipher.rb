@@ -1,7 +1,7 @@
 def caesar_cipher(string, shift)
     #return an array of characters in a string
     new_array = string.chars.map do |char|
-        #convert letters into ascii numbers
+        #convert letters into ascii numbers 
         new_char = char.ord 
         #for lowercase letters
         if new_char.between?(65,90) 
